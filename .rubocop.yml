@@ -1,0 +1,45 @@
+AllCops:
+  DisplayCopNames: true
+
+LineLength:
+  Max: 175
+
+ClassLength:
+  CountComments: false  # count full line comments?
+  Max: 175
+
+MethodLength:
+  CountComments: false  # count full line comments?
+  Max: 20
+
+HashSyntax:
+  EnforcedStyle: hash_rockets
+
+Documentation:
+  Enabled: false
+
+CollectionMethods:
+  PreferredMethods:
+    map: 'collect'
+    map!: 'collect!'
+    reduce: 'inject'
+    find: 'detect'
+    find_all: 'select'
+
+Output:
+  Enabled: false
+
+HasAndBelongsToMany:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  Enabled: false
+
+Style/RegexpLiteral:
+  EnforcedStyle: percent_r
+
+Style/SpaceInsideStringInterpolation:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 17
