@@ -2,7 +2,7 @@ language: ruby
 cache: bundler
 
 rvm:
-  - 2.2.5.1
+  - 2.2.5
   - 2.3.1
 
-script: 'bundle exec rake'
+script: 'CODECLIMATE_REPO_TOKEN=8c51f7e5074d530e9a01e792bc36b68890e2e40a19a4afac695f24098bd7cb2a bundle exec rake'
